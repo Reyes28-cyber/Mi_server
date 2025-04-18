@@ -1,0 +1,27 @@
+{
+  "name": "mi_server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reyes28-cyber/REPASANDO_01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Reyes28-cyber/REPASANDO_01/issues"
+  },
+  "homepage": "https://github.com/Reyes28-cyber/REPASANDO_01#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
