@@ -1,4 +1,5 @@
 const GetUsers = (req, res) => {
+    console.log("####### Consulatando GET USERS ######")
     res.send('GET USERS');
 };
 

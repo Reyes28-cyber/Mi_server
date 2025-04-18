@@ -2,6 +2,7 @@ const express = require('express');
 
 const usersRouter = require("./resources/users/users.router");
 const projectsRouter = require("./resources/projects/projects.router")
+const MessageMiddleware = require("./middlewares/message.middlewares")
 
 const app = express();
 
@@ -9,7 +10,7 @@ app.get('/', (req, res) => {
     res.send('Servidor corriendo');
 })
 
-app.use("/users",usersRouter);
+app.use("/users", MessageMiddleware, usersRouter);
 app.use("/projects",projectsRouter)
 
 
