@@ -5,11 +5,13 @@ const usersRouter = require("./resources/users/users.router");
 const projectsRouter = require("./resources/projects/projects.router")
 
 
-const MessageMiddleware = require("./middlewares/message.middlewares")
+const MessageMiddleware = require("./middlewares/message.middlewares");
+const { json } = require('body-parser');
 const app = express();
 
 
 // Middlewares
+app.use(express.json());
 app.use(morgan('dev'));
 
 
