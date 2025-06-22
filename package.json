@@ -19,6 +19,8 @@
   "homepage": "https://github.com/Reyes28-cyber/REPASANDO_01#readme",
   "description": "",
   "dependencies": {
+    "axios": "^1.10.0",
+    "dotenv": "^16.5.0",
     "express": "^5.1.0"
   },
   "devDependencies": {
