@@ -1,5 +1,3 @@
-const axios = require("axios");
-
 const HttpCodes = require("../../const/HttpCode");
 const { GetAPSTwoToken } = require("../../lib/aps.libs");
 
